@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    object-fit: cover !important;
+}
+
+.c-pointer {
+    cursor: pointer !important;
+}
+
+.fw-bold-500 {
+    font-weight: 500;
+}
+
+.fw-bold-600 {
+    font-weight: 600;
+}
+
+.fw-bold-900 {
+    font-weight: 900;
+}
+
+.text-real-small {
+    font-size: 12px !important;
+}
+
+.black-text-color {
+    color: var(--main-black-color) !important;
+}
+
+.gray-text-color {
+    color: var(--main-gray-color) !important;
+}
+
+.dark-gray-text-color {
+    color: var(--dark-gray-color) !important;
+}
+
+.blue-text-color {
+    color: var(--main-blue-color) !important;
+}
+
+.yellow-text-color {
+    color: var(--main-yellow-color) !important;
+}
+
+.dark-green-text-color {
+    color: var(--main-dark-green-color) !important;
+}
+
+.main-background-color {
+    background-color: var(--element-background-color) !important;
+}
+
+.green-light-bg {
+    background-color: var(--main-light-green-color) !important;
+}
+
+.dark-red-text-color {
+    color: var(--main-dark-red-color) !important;
+}
+
+.red-light-bg {
+    background-color: var(--main-light-red-color) !important;
+}
+

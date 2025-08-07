@@ -1,0 +1,122 @@
+/* Start The Main Left Sidebar */
+.the-main-sidebar {
+    width: 225px;
+    height: 100vh;
+    background-color: var(--main-white-color);
+    z-index: 1;
+}
+.the-main-sidebar .sidebar-content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.the-main-sidebar .icon {
+    min-width: 40px;
+    color: #8d9093;
+    transition: 0.3s;
+}
+.the-main-sidebar .nav-text {
+    color: #8d9093;
+    font-size: 15px;
+}
+.the-main-sidebar .nav-link .nav-link-item {
+    padding: 10px 10px 10px 5px;
+    transition: 0.3s;
+}
+.the-main-sidebar .nav-link .active .icon,
+.the-main-sidebar .nav-link .active .nav-text,
+.the-main-sidebar .nav-link .nav-link-item:hover .icon,
+.the-main-sidebar .nav-link .nav-link-item:hover .nav-text {
+    color: var(--main-blue-color);
+}
+.the-main-sidebar .nav-link .active .icon,
+.the-main-sidebar .nav-link .active .nav-text {
+    font-weight: bold;
+}
+.the-main-sidebar .nav-link .nav-link-item.active {
+    background-color: #f1f2f4;
+}
+.the-main-sidebar .sidebar-logo-holder,
+.the-main-sidebar .spend-content,
+.the-main-sidebar .sidebar-company-holder {
+    border-bottom: 1px solid #d5d5d5;
+}
+.the-main-sidebar .sidebar-logo-holder .logo-img {
+    width: 150px;
+}
+.the-main-sidebar a {
+    text-decoration: none;
+}
+.the-main-sidebar .spend-content .progress {
+    height: 10px;
+    background-color: #f1f2f4;
+}
+.the-main-sidebar .spend-content .progress .progress-bar {
+    background-color: var(--main-blue-color);
+}
+/* End The Main Left Sidebar */
+
+/* Start The Main Right Content Holder */
+@media (min-width: 992px) {
+    .the-main-content-holder {
+        padding-left: 225px;
+    }
+}
+/* End The Main Right Content Holder */
+
+/* Start The Main Header */
+.the-main-header {
+    height: 70px;
+    border-bottom: 1px solid #ebebff;
+    border-left: 1px solid #ebebff;
+    min-height: 50px;
+}
+.the-main-header .page-title {
+    font-size: 24px;
+}
+.the-main-header .header-logo-holder .logo-img {
+    width: 120px;
+}
+/* End The Main Header */
+
+/* Start The Main Content */
+.the-main-content {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+/* End The Main Content */
+
+/* Start Dashboard Page */
+.main-dashboard-page .dashboard-header .search-content input {
+    text-indent: 22px;
+    font-size: 14px;
+}
+.main-dashboard-page .dashboard-header .search-content input::placeholder {
+    color: var(--main-gray-color);
+}
+.main-dashboard-page .dashboard-header .change-period-select select:focus,
+.main-dashboard-page .dashboard-header .search-content input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: var(--main-blue-color);
+}
+.main-dashboard-page .dashboard-header .ask-ai-btn {
+    border: 2px solid #babbec;
+    padding: 7px 10px;
+}
+.main-dashboard-page .dashboard-header .calender-changer {
+
+}
+
+.main-dashboard-page .summary-cards .box-holder {
+    border-right: 1px solid #e4e4e4;
+}
+.main-dashboard-page .summary-cards .box-holder:last-child {
+    border-right: 0;
+}
+.main-dashboard-page .summary-cards .content-line {
+    border-bottom: 1px dashed #e4e4e4;
+}
+.main-dashboard-page .summary-cards .content-line:last-child {
+    border: 0;
+}
+/* End Dashboard Page */
