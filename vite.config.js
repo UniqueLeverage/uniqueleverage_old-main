@@ -6,6 +6,6 @@ export default defineConfig({
   preview: {
     port: process.env.PORT ? Number(process.env.PORT) : 4173,
     host: true,
-    allowedHosts: ['ul-new-app-main.onrender.com']  // 👈 Add this line
+    allowedHosts: ['uniqueleverage-old-main.onrender.com']  // 👈 Add this line
   }
 })
